@@ -378,7 +378,7 @@ function the_copyright() {
 	echo '<br>';
 
 	printf(
-		'&lt; This website was built with %s. &gt;',
+		'<span>&#123;</span> This website was styled with %s. <span>&#125;</span>',
 		'<a href="http://frontstreet.io" title="Front Street Front-end Web Development Framework" target="_blank">Front Street</a>'
 	);
 
