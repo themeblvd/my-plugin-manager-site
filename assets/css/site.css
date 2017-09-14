@@ -60,6 +60,7 @@ strong {
 }
 .site-logo-container > li > a {
 	display: block;
+	float: left;
 	padding: 15px 0;
 }
 .site-logo-container > li > span {
@@ -130,6 +131,9 @@ strong {
 	.site-logo-container > li {
 		display: inline-block;
 		float: left;
+	}
+	.site-logo-container > li > a {
+		float: none;
 	}
 	.fs-menu-toggle {
 		display: none;
