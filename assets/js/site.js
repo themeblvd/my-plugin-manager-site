@@ -101,6 +101,17 @@
 
 			event.preventDefault();
 
+			// Spam protection.
+			if ( $downloadForm.find( '#email' ).val() ) {
+				console.log( 'Nice try, Pooh.' );
+				return;
+			}
+
+			if ( $downloadForm.find( '#subscribe' ).is( ':checked' ) ) {
+				console.log( 'Nice try, Pooh.' );
+				return;
+			}
+
 			var ajaxurl          = '/inc/ajax.php',
 				error            = null,
 				args             = {

@@ -269,6 +269,9 @@ textarea:focus,
 select:focus {
 	border-color: #a6e22e;
 }
+#download .pooh-bear {
+	display: none;
+}
 
 /* Home Section: Code Block */
 .section-code {

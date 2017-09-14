@@ -45,6 +45,14 @@
 				<input type="text" id="text-domain" name="text-domain" class="field-xxl">
 				<span class="help-text">Enter the text domain used for localization in your WordPress theme; this usually matches the directory name of your theme. Example: <code>jumpstart</code> or <code>jump-start</code></span>
 			</p>
+			<p class="field-email pooh-bear">
+				<label for="email">Email Address</label>
+				<input type="text" id="email" name="email" class="field-xxl">
+			</p>
+			<p class="field-subscribe pooh-bear">
+				<label for="subscribe">Subscribe</label>
+				<input type="checkbox" id="subscribe" name="subscribe" class="field-xxl">
+			</p>
 			<p>
 				<button type="submit" class="btn-primary btn-xxxl btn-block">Generate and Download</button>
 			</p>
