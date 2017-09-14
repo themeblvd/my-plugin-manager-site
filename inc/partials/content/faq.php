@@ -18,12 +18,12 @@ $sections['about']['items'] = array(
 		'a' => '<p>Yes, it does. However, the plugin manager will not directly install plugins that are not hosted on wordpress.org. Instead, a link will be provided to the user to get the plugin.</p><p>With that said, after the non-wordpress.org plugin is installed by the user, if it supports native WordPress in-dashboard updates (which many commercial plugins do), then this can be managed from your product\'s plugin manager interface to help the user make sure they\'re maintaining a compatible version.</p>',
 	),
 	array(
-		'q' => 'When implemented into a theme, will my theme still pass <a href="https://wordpress.org/plugins/theme-check/" title="Theme Check Plugin" target="_blank">theme-check</a> so it can be sumbmitted to wordpress.org?',
-		'a' => '<p>Yes, of course!</p>',
+		'q' => 'When implemented into a theme, will my theme still pass theme-check so it can be sumbmitted to wordpress.org?',
+		'a' => '<p>Yup! It will defintely pass the <a href="https://wordpress.org/plugins/theme-check/" title="Theme Check Plugin" target="_blank">theme-check</a> plugin.</p>',
 	),
 	array(
-		'q' => 'How is this plugin manager different from <a href="http://http://tgmpluginactivation.com/" target="_blank" rel="nofollow">TGM Plugin Activation</a>?',
-		'a' => '<p>Our original goal was to create something conceptually similar to TGMPA, but with some important differences.</p><ul><li>Less overall features than TGMPA, making things simpler for the end-user.</li><li>Plugins are never required, only suggested.</li><li>For better security, while plugins from anywhere can be suggested, the auto-installer will only directly install wordpress.org hosted plugins.</li><li>A more Ajaxified experience for managing plugins, that blends more in with where WordPress is today.</li><li>The plugin manager admin screen always remains in place, listing all suggested plugins and their current status.</li></ul>',
+		'q' => 'How is this plugin manager different from TGM Plugin Activation?',
+		'a' => '<p>Our original goal was to create something conceptually similar to <a href="http://tgmpluginactivation.com/" target="_blank" rel="nofollow">TGMPA</a>, but with some important differences.</p><ul><li>Less overall features than TGMPA, making things simpler for the end-user.</li><li>Plugins are never required, only suggested.</li><li>For better security, while plugins from anywhere can be suggested, the auto-installer will only directly install wordpress.org hosted plugins.</li><li>A more Ajaxified experience for managing plugins, that blends more in with where WordPress is today.</li><li>The plugin manager admin screen always remains in place, listing all suggested plugins and their current status.</li><li>In concept this isn\'t meant to be a shared drop-in PHP library across multiple themes and plugins with whatever version happens to load first taking precedence, but instead every instance should be uniquely named and setup for its project (our <a href="http://mypluginmanager.com/#download" title="Generate and Download My Plugin Manager">online generator</a> helps with this).</li></ul>',
 	),
 );
 
