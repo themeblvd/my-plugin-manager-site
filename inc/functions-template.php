@@ -379,7 +379,7 @@ function the_copyright() {
 
 	printf(
 		'&lt; This website was built with %s. &gt;',
-		'<a href="https://frontstreet.io" title="Front Street Front-end Web Development Framework" target="_blank">Front Street</a>'
+		'<a href="http://frontstreet.io" title="Front Street Front-end Web Development Framework" target="_blank">Front Street</a>'
 	);
 
 }
