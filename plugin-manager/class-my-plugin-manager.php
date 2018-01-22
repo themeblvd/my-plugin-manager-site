@@ -16,7 +16,7 @@
  * instantiating their objects. See more about class
  * in docs below.
  *
- * @version    1.0.0
+ * @version    1.0.2
  * @author     Jason Bobich, Theme Blvd
  * @copyright  2009-2017 Theme Blvd
  * @link       http://mypluginmanager.com
@@ -387,7 +387,7 @@ if ( ! class_exists( '_My_Plugin_Manager' ) ) {
 				return;
 			}
 
-			$suffix = SCRIPT_DEBUG ? '' : '.min';
+			$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
 			wp_enqueue_script( 'updates' );
 
